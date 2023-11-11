@@ -1,0 +1,113 @@
+/* Notes.css */
+.notes-container {
+    text-align: center;
+    margin: 20px;
+    background-color: #333;
+  }
+  
+  .add-note {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-note input[type="text"],
+  .add-note input[type="date"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-note button {
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .search-bar {
+    margin-top: 20px;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  .notes-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .note {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .note:hover {
+    transform: translateY(-5px);
+  }
+  
+  .note-content h3 {
+    font-size: 20px;
+    color: #0077b6;
+    margin-bottom: 10px;
+  }
+  
+  .note-content p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .note-date {
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #f54949;
+  }
+
+  
+
+  /* Notes.css */
+/* ... Previous CSS styles ... */
+
+.note-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .delete-button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5
+  }  
+  
